@@ -1,0 +1,23 @@
+{
+  "name": "jqueryobj",
+  "description": "\"jq\"",
+  "main": "index.js",
+  "authors": [
+    "\"wang\""
+  ],
+  "license": "MIT",
+  "keywords": [
+    "\"jq\""
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span{
+            display: none;
+            position: fixed;
+            bottom: 5px;
+            right: 10px;
+            width: 200px;
+            height: 50px;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div style="height: 2000px;background: rebeccapurple">
+    <span id="backTop">回到顶部</span>
+</div>
+<script src="vendor\jquery\dist\jquery.min.js"></script>
+<script>
+    $(document).ready(
+                $(window).scroll(function () {
+                    var scrollValue = $(window).scrollTop();
+                    scrollValue > 100 ? $('#backTop').fadeIn(1) : $('#backTop').fadeOut(1);
+                }),
+                $("#backTop").click( function () {
+                    $("body").animate({scrollTop:0},600);
+                })
+
+    )
+</script>
+
+</body>
+</html>

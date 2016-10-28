@@ -1,0 +1,50 @@
+ .redbox{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.redbox{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+.redbox{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px; }
+.box{
+    border:1px solid #00d4b4;
+    margin: 10px;
+    padding: 10px;
+}
+.color{
+    color: red;
+}
+.box{
+    border: 1px solid #ed225d;
+    margin: 10px;
+    padding: 10px;
+}
+.color{
+    color: red;
+}
+
+.p1{color: red}
+.p2{color: green}
+.p3{color: blue}
